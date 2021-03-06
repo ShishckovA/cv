@@ -1,0 +1,147 @@
+\PassOptionsToPackage{dvipsnames}{xcolor}
+\documentclass[10pt,a4paper,ragged2e]{maltacv}
+\usepackage{hyphsubst}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{tgheros}
+\renewcommand*\familydefault{\sfdefault} 
+\usepackage{setspace}
+
+\usepackage{mathpazo}
+\usepackage{textcomp}
+\usepackage{multicol}
+
+\setcolorscheme{blue}
+\setlength\multicolsep{0pt}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+
+\name{Шишков Алексей}
+\firstname{Алексей}
+\familyname{Шишков}
+
+\begin{document}
+\tagline{Студент 2 курса Факультета компьютерных наук НИУ ВШЭ}
+\personalinfo{
+  \email{liosha.shishckov@yandex.ru}
+  \birthday{10.08.2001}
+  \github{ShishckovA}
+  \phone{+79169661519}
+  \telegram{ShishckovA}
+}
+
+\bio{Считаю, что развитие должно содержать в себе три основных составляющих – интеллектуальную, физическую и духовную. Предпочитаю интеллектуальные игры, хожу в горные походы. Люблю играть в настольный теннис, футбол, волейбол. Окончил музыкальную школу по специальности скрипка и два года занимался флейтой. Свободное время люблю проводить, общаясь с друзьями, играя на гитаре или дрессируя свою кошку. В людях ценю честность и открытость, а также считаю, что пусть лучше друзей будет немного, но они будут настоящими.}
+
+\makecvheader
+
+\cvsection{УМЕНИЯ}
+\begin{center}
+  \begin{multicols}{3}
+    \cvlistitem{Python 3, C++, Java}{}
+    \cvlistitem{Jupyter Notebook, DS, основы ML}{}
+    \cvlistitem{Матанализ, теорвер, матстат, линал}{}
+    \columnbreak
+    \cvlistitem{Git, \LaTeX}{}
+    \cvlistitem{HTML, Typescript + ReactJS, CSS}{}
+    \cvlistitem{DB (MySQL, Postgresql), SQL}{}
+        \columnbreak
+    \cvlistitem{VK/Telegram API}{}
+    \cvlistitem{Linux, Bash}{}
+    \cvlistitem{Пишу проекты \mbox{для себя} на C++/Python}{}
+    
+  \end{multicols}
+\end{center}
+
+\cvsection{ОБРАЗОВАНИЕ}
+\medskip
+\begin{multicols}{2}
+
+  \cvuniversity{Факультет компьютерных наук}{НИУ ВШЭ}{2019 -- 2023}{}
+  \begin{itemize}
+      \item Прикладная математика и информатика
+      \item Текущий GPA: 8.44 из 10
+  \end{itemize}
+
+  \cvuniversity{Школа IT-решений}{КРОК}{2018}{}
+  \begin{itemize}
+      \item Участие в курсе опроса пользователей
+      \item Посещение лекций и семинаров по различным темам
+      \item Презентация и защита проекта
+  \end{itemize}
+  
+  \cvuniversity{Школа "Гимназия на Юго-Западе №1543"}{}{2012 -- 2019}{}
+  \begin{itemize}
+      \item Класс с углублённым изучением математики
+      \item Итогова оценка по математическому спецкурсу: 5 из 5
+  \end{itemize}
+\columnbreak
+  
+    \cvuniversity{Летняя школа для будущих программистов Universum}{}{август 2019}{Мюнхен, Германия}
+  \begin{itemize}
+        \item Успешное окончание школы
+        \item Полностью написанное расширение для браузера, заменяющее рекламу на смешные картинки
+        \item Работа в команде, руководитель команды
+  \end{itemize}
+  
+  
+  \cvuniversity{Летняя компьютерная школа}{}{август 2018}{Лаагна, Эстония}
+  \begin{itemize}
+        \item Алгоритмическая параллель A'
+        \item Оценки по экзамену: 5, 4+ из 5
+  \end{itemize}
+  
+
+  
+  
+  \cvuniversity{Летняя компьютерная школа}{}{август 2017}{Кострома, Россия}
+  \begin{itemize}
+        \item Алгоритмическая параллель B'
+        \item Оценки по экзамену: 5, 5- из 5
+  \end{itemize}
+  
+  
+\end{multicols}
+
+\medskip
+\cvsection{ОПЫТ В ПРОЕКТАХ/РАБОТЕ}
+
+\cvexperience{Стажёр-разработчик паблишинговой платформы Яндекс.Дзена }{<<Яндекс>>}{Февраль -- Август 2020 (6 месяцев)}{Москва, Россия}{}
+\begin{itemize}
+  \item Бэкенд-разработка на Java
+  \item JOOQ+Postgresql
+  \item Фронтенд-разработка (Typescript+ReactJS)
+  \item Скрипты на Python 3
+\end{itemize}
+
+\divider
+
+\cvexperience{Совместная работа над проектом <<Аудиобот>> (\href{https://vk.com/messagetotext}{vk.com/messagetotext})} {<<КРОК>>}{2018}{Москва, Россия}{}
+\begin{itemize}
+  \item Лидер команды разработки
+  \item Написание бота для ВКонтакте, распознающего голосовые сообщения
+  \item Работа с vk\_api, обработка звука
+  \item Грамота за успешное участие
+  \item Бот работает, >1000 подписчиков сейчас
+\end{itemize}
+
+\medskip
+\cvsection{УЧАСТИЕ В ОЛИМПИАДАХ}
+\medskip
+\begin{multicols}{2}
+  \cvlistitem{Призёрство в всеросе по информатике, математике, 2019}{(региональный этап)}
+  
+  \cvlistitem{Участие во всеросе по русскому языку, 2019}{(региональный этап)}
+  
+\columnbreak
+  \cvlistitem{Победа в всероссийской олимпиаде по математике и криптографии, 2019}{}
+
+  \cvlistitem{Турнир городов, диплом 3-й степени, 2019}{}
+  \cvlistitem{Олимпиада <<Высшая проба>>, математика, диплом 3-й степени, 2019}{}
+
+  
+\end{multicols}
+
+
+
+\end{document}

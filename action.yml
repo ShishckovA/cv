@@ -1,0 +1,7 @@
+# action.yml
+
+name: 'Update CV'
+description: 'Updates CV: recompiles two files from sources '
+runs:
+  using: 'docker'
+  image: 'Dockerfile'

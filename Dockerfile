@@ -2,9 +2,8 @@ FROM fedora:31
 
 RUN dnf install -y texlive-scheme-full
 
-COPY tex_data /cv
-COPY process.bash /process.bash
+COPY cv /cv
 
-RUN chmod ugo+x /process.bash
+RUN chmod +x /cv/process.bash
 
-ENTRYPOINT ["/process.bash"]
+ENTRYPOINT ["/cv/process.bash"]

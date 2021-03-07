@@ -2,8 +2,8 @@
 
 cd /cv
 
-pdflatex cv.tex
-pdflatex cv-english.tex
+pdflatex -interaction=nonstopmode cv.tex
+pdflatex -interaction=nonstopmode cv-english.tex
 
 rm ./*.log
 
